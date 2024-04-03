@@ -1,2 +1,2 @@
-# Imdb-Clone
+# Imdb-Clon
 Imdb Clone project 
