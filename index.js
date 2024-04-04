@@ -12,9 +12,9 @@ function displayResults(event) {
         return;
     }
     if (searchkeyword.substr(0, 2) == 'tt')
-        var url = "http://www.omdbapi.com/?apikey=a46da47&i=" + searchkeyword;
+        var url = "https://www.omdbapi.com/?apikey=a46da47&i=" + searchkeyword;
     else
-        var url = "http://www.omdbapi.com/?apikey=a46da47&s=" + searchkeyword;
+        var url = "https://www.omdbapi.com/?apikey=a46da47&s=" + searchkeyword;
     fetch(url).then(response => response.json())
         .then(function (data) {
             allMoviesAPI = data;
