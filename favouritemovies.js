@@ -3,7 +3,7 @@ function renderfavouritemovieslist(){
     favouritemovies.textContent="";
     for (let i in myFavouriteList) {
         let li = document.createElement("li");
-        let url="http://www.omdbapi.com/?apikey=a46da47&i=" + myFavouriteList[i];
+        let url="https://www.omdbapi.com/?apikey=a46da47&i=" + myFavouriteList[i];
 
         fetch(url).then(response => response.json())
                 .then(function (data){
