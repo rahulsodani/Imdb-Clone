@@ -39,7 +39,6 @@ document.addEventListener('click', function (event) {
         for (var i in myFavouriteList) {
             if (myFavouriteList[i] == target.id) {
                 myFavouriteList.splice(i, 1);
-                retArray.splice(i, 1);
                 break;
             }
         }
