@@ -90,8 +90,6 @@ document.addEventListener('click', function (event) {
         renderSearchedMovieslist(moviesmatching);
         var string = JSON.stringify(retArray);
         localStorage.setItem("favoriteval", string);
-
-        renderSearchedMovieslist(moviesmatching);
     }
 
     if (event.target.className == "displaymovie") {
