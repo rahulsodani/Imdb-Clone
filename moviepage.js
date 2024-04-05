@@ -1,3 +1,4 @@
+// render the movie details page when clicked on a movie in the home page
 var movie = document.getElementById("name");
 var plot = document.getElementById("plot");
 var img = document.getElementById("img");
