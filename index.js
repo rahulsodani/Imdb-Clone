@@ -4,6 +4,12 @@ var results = document.getElementById("results");
 var moviesmatching = [];
 var myFavouriteList = [];
 
+// create local storage if not available already
+if(!localStorage.favoriteval)
+{
+    localStorage.favoriteval="[]";
+}
+
 // to search and store the matched results in moviesmatching list
 function displayResults(event) {
     var searchkeyword = event.target.value;
